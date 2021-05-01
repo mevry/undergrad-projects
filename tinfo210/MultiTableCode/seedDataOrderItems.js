@@ -1,0 +1,54 @@
+var seedData = [
+{
+    "orderid":"1234",
+    "prodid":"prod-345",
+    "custid":"7732",
+    "price":52.50,
+    "qty":3,
+    "discount":0
+},
+{
+    "orderid":"1234",
+    "prodid":"prod-12",
+    "custid":"7732",
+    "price":3.50,
+    "qty":12,
+    "discount":3
+},
+{
+    "orderid":"1222",
+    "prodid":"prod-15",
+    "custid":"7732",
+    "price":14.99,
+    "qty":1,
+    "discount":3
+},
+{
+    "orderid":"1200",
+    "prodid":"prod-54",
+    "custid":"7732",
+    "price":25.00,
+    "qty":2,
+    "discount":0
+},
+{
+    "orderid":"1200",
+    "prodid":"prod-782",
+    "custid":"7732",
+    "price":4.50,
+    "qty":1,
+    "discount":0
+},
+{
+    "orderid":"1200",
+    "prodid":"prod-100",
+    "custid":"7732",
+    "price":2.99,
+    "qty":4,
+    "discount":0
+}
+
+];
+//1200
+//1222
+//1234
