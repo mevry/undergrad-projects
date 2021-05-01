@@ -1,0 +1,22 @@
+- Need a graph class
+ -> Contains vertices
+
+- Need a vertex class
+
+
+Dijkstra's algorithm
+
+Data		| Data Structure
+
+Distance Table	| 3-Column Array (or Dictionary)
+Backtracking	| Stack (or array if you treat it like a stack)
+Enqueuing Neighb| Priority Queue (binary heap or array)
+
+Performance
+Binary Heap ->	O(E log(V))
+Array ->	O(E + V*V)
+
+
+ortho
+1430
+4th floor

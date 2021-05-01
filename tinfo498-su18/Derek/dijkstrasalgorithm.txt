@@ -1,0 +1,36 @@
+//Distance Table: Dictionary<int vertexId, ValueTuple(int sourceDistance, int precedingId)>
+
+
+//Build distanceTable -> requires a graph and a source node
+//Initialize each possible value in distance table to null
+//Set source node distance to 0 and previous node to itself
+
+//set up priority queue -> keys are vertexId & vals are distance
+//add source node to priority queue
+
+//this is where the algorithm really begins
+
+//set up a loop that iterates over the queue while there are items in it
+//dequeue a vertex
+// retrieve the vertex's distance from the distance table
+//iterate over that vertex's adjacent nodes and
+	// add the edge weight of each to the current distance
+	// retrieve the last known distance of this adjacent node
+	//unvisited neighbors will have null val
+	//check if the neighbor is unvisited or the current path's distance is less than the recorded distance
+		//update the distance table with new distance and preceding node
+		//add the neighbor to the queue for later processing
+	
+
+//SHORTEST PATH
+//requires the graph, source, destination
+//set up distance table
+
+//Use stack to hold the path
+//Add destination to stack
+//Access previous vertex (from destination)
+
+//iterate through the previous vertices in the distance table until previous is none or previous is the source
+	//add previous to stack to stack
+
+//Print out path (if one exists)
