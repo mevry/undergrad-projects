@@ -1,0 +1,6 @@
+General Site Requirements
+
+- W3C compliant?
+- Code comments?
+
+
